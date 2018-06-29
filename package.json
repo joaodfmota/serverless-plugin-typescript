@@ -1,5 +1,5 @@
 {
-  "name": "@hewmen/serverless-plugin-typescript",
+  "name": "joaodfmota-serverless-plugin-typescript",
   "version": "1.1.17",
   "main": "dist/src/index.js",
   "files": [
@@ -10,14 +10,14 @@
   "scripts": {
     "prepublish": "npm run build",
     "precommit": "npm run test",
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "pretest": "npm run lint",
     "test": "jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hewmen/serverless-plugin-typescript.git"
+    "url": "git+https://github.com/joaodfmota/serverless-plugin-typescript.git"
   },
   "keywords": [
     "serverless",
